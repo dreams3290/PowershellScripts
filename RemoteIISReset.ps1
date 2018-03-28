@@ -1,4 +1,5 @@
-﻿$servers="server1","server2"
+﻿#Script to restart IIS remotely
+$servers="server1","server2"
    foreach ($server in $servers)
 {
     Write-Host "Restarting IIS on server $server..."
